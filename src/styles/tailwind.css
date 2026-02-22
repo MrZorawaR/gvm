@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-bg: #192d45;
+  --color-accent-text: #e2dccc;
+  --color-text-main: #495057;
+}
+
+/* Keyframes for arrow bounce */
+@keyframes updown-arrow {
+  0%, 100% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(5px); opacity: 1; }
+}
+
+/* Keyframes for marquee scroll */
+@keyframes marquee-scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Gallery hover effect */
+.gallery-card img {
+  transition: opacity 0.5s ease-in-out;
+}
+.gallery-card:hover img {
+  opacity: 0;
+}
+.gallery-card:hover {
+  background-color: var(--color-accent-bg);
+}
+
+/* Overlay row hover */
+.overlay-row {
+  background: var(--color-accent-bg);
+  opacity: 0.9;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.overlay-row:hover {
+  background: var(--color-accent-text);
+  opacity: 1;
+}
+.overlay-row .overlay-link {
+  color: var(--color-accent-text);
+  transition: color 0.3s ease;
+}
+.overlay-row:hover .overlay-link {
+  color: var(--color-accent-bg);
+}
+
+/* Card slider auto-scroll */
+@keyframes card-scroll {
+  0% { transform: translateX(0); }
+  30% { transform: translateX(0); }
+  33.33% { transform: translateX(-100%); }
+  63.33% { transform: translateX(-100%); }
+  66.66% { transform: translateX(-200%); }
+  96.66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
