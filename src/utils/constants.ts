@@ -1,6 +1,6 @@
 /** App-wide constants */
 
-export const SCHOOL_NAME = "Kualakubs World School";
+export const SCHOOL_NAME = "Geeta Vidya Mandir Public School";
 export const SCHOOL_SHORT_NAME = "GVM";
 export const SCHOOL_PHONE = "+91-9996648317";
 export const SCHOOL_EMAIL = "info@kualakubsworldschool.in";

@@ -60,7 +60,7 @@ export default function Footer({ footerLinksData = footerLinks }) {
 
       {/* Row 3: Copyright */}
       <div className="text-center text-sm">
-        Copyright © 2026-27 Kualakubs World School, Gurugram.
+        Copyright © 2026-27 Geeta Vidya Mandir Public School, Gurugram.
       </div>
     </footer>
   );

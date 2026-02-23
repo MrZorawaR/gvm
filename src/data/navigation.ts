@@ -39,7 +39,6 @@ export const footerLinks = [
     links: [
       { path: "/contact", pathname: "Contact Us" },
       { path: null, pathname: "+91 - 9996648317" },
-      { path: null, pathname: "info@kualakubsworldschool.in" },
     ],
   },
 ];

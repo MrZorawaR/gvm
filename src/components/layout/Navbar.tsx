@@ -35,7 +35,7 @@ export default function Navbar() {
       >
         {/* Header */}
         <div className="flex items-center justify-between p-4 text-accent-text">
-          <h5 className="font-semibold text-lg m-0">Kualakubs World School</h5>
+          <h5 className="font-semibold text-lg m-0">Geeta Vidya Mandir Public School</h5>
           <button
             className="text-accent-text text-2xl bg-transparent border-none cursor-pointer"
             onClick={() => setShow(false)}

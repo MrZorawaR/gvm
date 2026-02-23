@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import aboutlogo from "../../../assets/images/logo_rbg.png";
+import aboutlogo from "../../../assets/images/gvmps-logo.png";
 
 export default function AboutSection() {
   return (
@@ -16,7 +16,7 @@ export default function AboutSection() {
 
       {/* About text */}
       <p className="z-2 text-accent-text w-[80%] max-w-175 mx-auto my-4 text-center text-[1.1rem] leading-relaxed tracking-wide">
-        Welcome to Kualakubs World School, a CBSE formal school committed to
+        Welcome to Geeta Vidya Mandir Public School, a CBSE formal school committed to
         building strong academic foundations, essential life skills, and a
         future-ready mindset in every child. With a blend of modern pedagogy,
         global teaching standards, and a safe, nurturing environment, Kualakubs

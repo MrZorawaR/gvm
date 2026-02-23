@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import slide1 from "../../../assets/images/kualakubs home image 2.png";
-import HeaderLogo from "../../../assets/images/kulakubs_new_logo.png";
+import HeaderLogo from "../../../assets/images/gvmps-logo.png";
 
 interface HeaderLink {
   pathname: string;
@@ -16,17 +16,19 @@ export default function HeroSection({ headerlinks = [] }: { headerlinks?: Header
         alt="Hero"
         className="absolute inset-0 w-full h-full object-cover"
       />
+      {/* Black overlay */}
+      <div className="absolute inset-0 bg-black/60" />
 
       {/* Overlay navigation panel — top-right */}
-      <div className="absolute z-2 top-[1%] right-[2%] w-[10%] max-md:w-[25%] max-sm:w-[40%] text-white">
+      <div className="absolute z-999 top-[1%] right-[2%] w-[10%] max-md:w-[25%] max-sm:w-[40%] text-white">
         <div className="pe-2">
           {/* Logo bar */}
-          <div className="mb-1 flex justify-center items-center bg-accent-text/75">
+          <div className="mb-1 flex justify-center items-center bg-accent-text">
             <Link to="/">
               <img
                 src={HeaderLogo}
                 alt="Header Logo"
-                className="mt-4 md:mt-3 mb-4 md:mb-3 max-w-full h-auto"
+                className="mt-4 md:mt-3 mb-4 md:mb-3 px-3 h-auto"
               />
             </Link>
           </div>
@@ -60,7 +62,7 @@ export default function HeroSection({ headerlinks = [] }: { headerlinks?: Header
           <i>Welcome to</i>
         </h4>
         <h1 className="text-white font-['Montserrat'] font-extrabold text-[60px] max-md:text-3xl max-sm:text-2xl m-0">
-          GVM
+          Geeta Vidya Mandir Public School
         </h1>
         <a
           href="#"

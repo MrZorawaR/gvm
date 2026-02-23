@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <HomePopup />
+        {/* <HomePopup /> */}
         <Navbar />
 
         {/* Hero section with carousel, overlay, and bottom strip */}
