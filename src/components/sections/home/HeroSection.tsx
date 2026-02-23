@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import slide1 from "../../../assets/images/kualakubs home image 2.png";
+import slide1 from "../../../assets/images/1.webp";
 import HeaderLogo from "../../../assets/images/gvmps-logo.png";
 
 interface HeaderLink {

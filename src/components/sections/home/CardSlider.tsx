@@ -36,6 +36,7 @@ export default function CardSlider() {
                   src={card.img}
                   className="w-full h-62.5 object-cover"
                   alt={card.tag}
+                  loading="lazy"
                 />
               </Link>
               <h6

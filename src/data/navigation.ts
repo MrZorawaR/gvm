@@ -30,7 +30,6 @@ export const footerLinks = [
       { path: "/campus-facilities", pathname: "Campus facilities" },
       { path: "/why-kualakubs", pathname: "Why GVM" },
       { path: "/career", pathname: "Careers" },
-      { path: "https://kualakubsgurugram.in/", pathname: "Kualakubs Pre School" },
       { path: "/privacy-policy", pathname: "Privacy Policy" },
     ],
   },
