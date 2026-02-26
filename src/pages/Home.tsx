@@ -12,6 +12,10 @@ import WhatsappIcon from "../components/ui/WhatsappIcon";
 
 import { headerLinks } from "../data/navigation";
 import { homeGalleryItems } from "../data/gallery";
+import MessageSection from "../components/sections/home/MessageSection";
+import FeaturesSection from "../components/sections/home/FeaturesSection";
+import PrincipalSection from "../components/sections/home/PrincipalMsg";
+import { Messages } from "../data/message";
 
 export default function Home() {
   return (
@@ -31,7 +35,9 @@ export default function Home() {
 
         {/* Latest news ticker */}
         <NewsTicker />
-
+        <MessageSection data={Messages[0]}/>
+        <FeaturesSection />
+        <MessageSection data={Messages[1]}/>
         {/* Card slider */}
         <div className="mx-auto" style={{ width: "75%" }}>
           <CardSlider />
