@@ -3,18 +3,15 @@ import Divider from "../components/ui/Divider";
 import AboutSection from "../components/sections/home/AboutSection";
 import NewsTicker from "../components/sections/home/NewsTicker";
 import CardSlider from "../components/sections/home/CardSlider";
-import DiscoverGrid from "../components/sections/home/DiscoverGrid";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
-import HomePopup from "../components/ui/HomePopup";
 import SideCTA from "../components/ui/SideCTA";
 import WhatsappIcon from "../components/ui/WhatsappIcon";
 
 import { headerLinks } from "../data/navigation";
-import { homeGalleryItems } from "../data/gallery";
 import MessageSection from "../components/sections/home/MessageSection";
 import FeaturesSection from "../components/sections/home/FeaturesSection";
-import PrincipalSection from "../components/sections/home/PrincipalMsg";
+import ContactSection from "../components/sections/home/ContactSection";
 import { Messages } from "../data/message";
 
 export default function Home() {
@@ -28,7 +25,7 @@ export default function Home() {
         <HeroSection headerlinks={headerLinks} />
 
         {/* Divider tagline */}
-        <Divider />
+        {/* <Divider /> */}
 
         {/* About section */}
         <AboutSection />
@@ -38,21 +35,12 @@ export default function Home() {
         <MessageSection data={Messages[0]}/>
         <FeaturesSection />
         <MessageSection data={Messages[1]}/>
-        {/* Card slider */}
-        <div className="mx-auto" style={{ width: "75%" }}>
-          <CardSlider />
-        </div>
-
-        {/* Discover More gallery grid */}
-        <DiscoverGrid
-          galleryItems={homeGalleryItems}
-          h="DISCOVER MORE"
-          p="Find out about life at KualaKubs School, both inside and outside the classroom"
-        />
+        <CardSlider />
+        <ContactSection />
       </main>
 
       <Footer />
-      <SideCTA />
+      {/* <SideCTA /> */}
       <WhatsappIcon />
     </>
   );

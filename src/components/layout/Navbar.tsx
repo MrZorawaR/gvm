@@ -10,7 +10,7 @@ export default function Navbar() {
       {/* Hamburger button */}
       <button
         onClick={() => setShow(true)}
-        className="fixed top-[2%] left-[2%] z-3 border-none rounded-[10px] w-12 h-12 opacity-80 text-2xl flex items-center justify-center cursor-pointer"
+        className="fixed top-[2%] left-[2%] z-9999 border-none rounded-[10px] w-12 h-12 opacity-80 text-2xl flex items-center justify-center cursor-pointer"
         style={{ backgroundColor: "var(--color-accent-text)" }}
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">

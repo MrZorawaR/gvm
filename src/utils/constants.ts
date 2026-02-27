@@ -2,11 +2,13 @@
 
 export const SCHOOL_NAME = "Geeta Vidya Mandir Public School";
 export const SCHOOL_SHORT_NAME = "GVM";
-export const SCHOOL_PHONE = "+91-9996648317";
-export const SCHOOL_EMAIL = "info@kualakubsworldschool.in";
-export const SCHOOL_ADDRESS = "DLF New Town Heights, Sector 86, Gurugram";
+export const SCHOOL_PHONE = "+91-9996611143";
+export const SCHOOL_PHONE2 = "+91-9896471555";
 
-export const WHATSAPP_NUMBER = "919996648317";
+export const SCHOOL_EMAIL = "gvmps22@gmail.com";
+export const SCHOOL_ADDRESS = "Near N.H.B.C, Panipat-132103, Haryana";
+
+export const WHATSAPP_NUMBER = "919996611143";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Hello%20I%20need%20more%20information`;
 
 export const ERP_LOGIN_URL = "https://eflow.kualakubsgurugram.in/";
