@@ -52,7 +52,22 @@ export default function Navbar() {
                 <Link
                   className="block py-2 text-accent-text no-underline hover:opacity-75 transition-opacity"
                   to={item.to}
-                  onClick={() => setShow(false)}
+                  onClick={(e) => {
+                    setShow(false);
+                    // Handle hash scrolling when already on same page
+                    if (item.to.includes('#')) {
+                      const hash = item.to.split('#')[1];
+                      if (hash) {
+                        e.preventDefault();
+                        const el = document.getElementById(hash);
+                        if (el) {
+                          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                        // Update URL hash without navigation
+                        window.history.pushState(null, '', item.to);
+                      }
+                    }
+                  }}
                 >
                   {item.label}
                 </Link>

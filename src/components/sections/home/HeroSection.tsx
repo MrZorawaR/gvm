@@ -39,6 +39,20 @@ export default function HeroSection({ headerlinks = [] }: { headerlinks?: Header
               key={index}
               to={section?.path || "#"}
               className="no-underline text-inherit p-0"
+              onClick={(e) => {
+                const path = section?.path || "";
+                if (path.includes('#')) {
+                  const hash = path.split('#')[1];
+                  if (hash) {
+                    e.preventDefault();
+                    const el = document.getElementById(hash);
+                    if (el) {
+                      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                    window.history.pushState(null, '', path);
+                  }
+                }
+              }}
             >
               <div className="overlay-row mb-1 p-2 flex justify-between items-center">
                 <span className="overlay-link text-sm">

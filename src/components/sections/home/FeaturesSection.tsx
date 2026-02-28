@@ -5,6 +5,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { features } from "../../../data/featuresData";
 import FeatureCard from "./features/FeatureCard";
 import DotButton from "./features/DotButton";
+import DownloadFeeBtn from "../../ui/DownloadFeeBtn";
 
 export default function FeaturesSection() {
   const autoplayPlugin = useRef(
@@ -49,7 +50,7 @@ export default function FeaturesSection() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="relative py-16 md:py-24 overflow-hidden">
+    <section className="relative py-16 md:py-24 overflow-hidden" id="why-gvmps">
       {/* Background */}
       <div
         className="absolute inset-0 -z-10"
@@ -85,6 +86,9 @@ export default function FeaturesSection() {
             Everything your child needs for a well-rounded education — modern
             infrastructure, expert guidance, and a vibrant learning atmosphere.
           </p>
+          <div className="mt-6">
+            <DownloadFeeBtn />
+          </div>
         </div>
 
         {/* Carousel */}

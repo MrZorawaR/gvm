@@ -47,7 +47,7 @@ export default function CardSlider() {
     onSelect();
   }, [emblaApi, onSelect]);
   return (
-    <section className="relative py-16 md:py-24 overflow-hidden">
+    <section className="relative py-16 md:py-24 overflow-hidden" id="news">
       {/* Background */}
       <div
         className="absolute inset-0 -z-10"
@@ -89,9 +89,10 @@ export default function CardSlider() {
           onMouseLeave={handleMouseLeave}
         >
           <div className="flex -ml-4">
-            {sliderCards.map((card) => (
-              <div
-                key={card.text}
+            {sliderCards.map((card, index) => (
+              <Link
+                key={`${card.text}-${index}`}
+                to={card.link || "#"}
                 className="min-w-0 shrink-0 grow-0 pl-4
                       basis-full sm:basis-1/2 lg:basis-1/3"
               >
@@ -108,8 +109,16 @@ export default function CardSlider() {
                         "linear-gradient(to top, rgba(10,20,35,0.95) 0%, rgba(25,45,69,0.55) 40%, transparent 100%)",
                     }}
                   />
+                  <div className="absolute inset-0 p-6 flex flex-col justify-end z-10">
+                    <h3 className="text-xl font-bold text-white group-hover:text-amber-100 transition-colors duration-300">
+                      {card.text}
+                    </h3>
+                    <span className="text-xs font-semibold uppercase tracking-wider text-accent-text/80 mb-2 block">
+                      {card.tag}
+                    </span>
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

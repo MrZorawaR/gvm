@@ -32,9 +32,9 @@ export default function Home() {
 
         {/* Latest news ticker */}
         <NewsTicker />
-        <MessageSection data={Messages[0]}/>
+        <MessageSection data={Messages[0]} id="chairman"/>
         <FeaturesSection />
-        <MessageSection data={Messages[1]}/>
+        <MessageSection data={Messages[1]} id="principal"/>
         <CardSlider />
         <ContactSection />
       </main>

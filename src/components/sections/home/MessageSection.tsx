@@ -4,11 +4,13 @@ import type { MessageData } from "../../../utils/types";
 type MessageSectionProps = {
   data: MessageData;
   reverse?: boolean;
+  id: string;
 };
 
 export default function MessageSection({
   data,
   reverse = false,
+  id,
 }: MessageSectionProps) {
   const { label, quote, description, name, designation, image } = data;
 
@@ -25,7 +27,7 @@ export default function MessageSection({
   }, [expanded]);
 
   return (
-    <section className="relative overflow-hidden py-16 md:py-24 bg-accent-text/30">
+    <section className="relative overflow-hidden py-16 md:py-24 bg-accent-text/30" id={id}>
       {/* Decorative blobs */}
       <div
         className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/4 w-125 h-125 rounded-full blur-[120px] opacity-30"
