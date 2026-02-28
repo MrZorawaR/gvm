@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <main>
         {/* <HomePopup /> */}
-        <Navbar />
+        {/* <Navbar /> */}
 
         {/* Hero section with carousel, overlay, and bottom strip */}
         <HeroSection headerlinks={headerLinks} />

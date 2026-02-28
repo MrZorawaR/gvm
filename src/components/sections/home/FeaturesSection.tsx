@@ -75,7 +75,7 @@ export default function FeaturesSection() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <span className="inline-block w-8 h-0.5 rounded-full bg-accent-text/40" />
             <span className="uppercase tracking-[0.25em] text-xs font-semibold text-accent-text/60">
-              Why Choose Us
+              Why GVM
             </span>
             <span className="inline-block w-8 h-0.5 rounded-full bg-accent-text/40" />
           </div>

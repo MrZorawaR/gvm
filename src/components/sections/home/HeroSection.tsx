@@ -98,9 +98,9 @@ export default function HeroSection({ headerlinks = [] }: { headerlinks?: Header
         className="absolute bottom-0 z-2 h-12.5 w-[40%] max-md:w-full max-md:h-7.5 flex justify-center items-center bg-accent-bg/85"
         style={{ clipPath: "polygon(0 0, 95% 0, 100% 100%, 0% 100%)" }}
       >
-        <a href="/co-education" className="no-underline text-accent-text text-lg max-md:text-sm my-2 mx-2">
-          Co-Education and Pre-Prep from 2026 &#8594;
-        </a>
+        <p className="no-underline text-accent-text text-lg max-md:text-sm my-2 mx-2">
+          A Proud Legacy of Excellence in Education | 2026 &#8594;
+        </p>
       </div>
     </div>
   );
