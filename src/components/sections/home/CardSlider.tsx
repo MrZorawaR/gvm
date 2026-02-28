@@ -90,9 +90,8 @@ export default function CardSlider() {
         >
           <div className="flex -ml-4">
             {sliderCards.map((card, index) => (
-              <Link
+              <div
                 key={`${card.text}-${index}`}
-                to={card.link || "#"}
                 className="min-w-0 shrink-0 grow-0 pl-4
                       basis-full sm:basis-1/2 lg:basis-1/3"
               >
@@ -118,7 +117,7 @@ export default function CardSlider() {
                     </span>
                   </div>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         </div>

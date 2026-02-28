@@ -86,9 +86,6 @@ export default function FeaturesSection() {
             Everything your child needs for a well-rounded education — modern
             infrastructure, expert guidance, and a vibrant learning atmosphere.
           </p>
-          <div className="mt-6">
-            <DownloadFeeBtn />
-          </div>
         </div>
 
         {/* Carousel */}

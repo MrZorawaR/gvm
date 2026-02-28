@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import DownloadFeeBtn from "../ui/DownloadFeeBtn";
 
 export default function Footer() {
   return (
@@ -35,6 +36,11 @@ export default function Footer() {
             </Link>
           ))}
         </nav>
+
+        {/* Call to Action */}
+        <div className="mb-12 flex justify-center">
+          <DownloadFeeBtn />
+        </div>
 
         {/* Bottom Bar */}
         <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-white/10">
