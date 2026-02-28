@@ -72,15 +72,8 @@ export default function FeaturesSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
         {/* Section header */}
         <div className="text-center mb-12">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <span className="inline-block w-8 h-0.5 rounded-full bg-accent-text/40" />
-            <span className="uppercase tracking-[0.25em] text-xs font-semibold text-accent-text/60">
-              Why GVM
-            </span>
-            <span className="inline-block w-8 h-0.5 rounded-full bg-accent-text/40" />
-          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-accent-text leading-tight">
-            School Features &amp; Facilities
+            Why GVM
           </h2>
           <p className="mt-3 text-accent-text/60 max-w-5xl mx-auto text-base">
             Everything your child needs for a well-rounded education — modern
