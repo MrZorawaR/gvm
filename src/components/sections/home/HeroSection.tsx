@@ -79,10 +79,10 @@ export default function HeroSection({ headerlinks = [] }: { headerlinks?: Header
           Geeta Vidya Mandir Public School
         </h1>
         <a
-          href="#"
+          href="#about-us"
           onClick={(e) => {
             e.preventDefault();
-            document.getElementById("slidedown")?.scrollIntoView({ behavior: "smooth", block: "start" });
+            document.getElementById("about-us")?.scrollIntoView({ behavior: "smooth", block: "start" });
           }}
           className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white text-gray-800 mt-3"
         >
