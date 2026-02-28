@@ -21,11 +21,10 @@ export default function Footer() {
         <nav className="flex flex-wrap justify-center gap-x-8 md:gap-x-12 gap-y-4 mb-12">
           {[
             { name: 'Home', path: '/' },
-            { name: 'About Us', path: '/about' },
-            { name: 'Academics', path: '/academics' },
-            { name: 'Admissions', path: '/admissions' },
-            { name: 'Gallery', path: '/gallery' },
-            { name: 'Contact', path: '/contact' }
+            { name: 'About Us', path: '/#about-us' },
+            { name: 'Admissions', path: '/#admissions' },
+            { name: 'News & Events', path: '/#news' },
+            { name: 'Contact', path: '/#contact' }
           ].map((item) => (
             <Link 
               key={item.name}
@@ -49,8 +48,8 @@ export default function Footer() {
           </p>
           
           <div className="flex gap-6 text-xs tracking-wider text-accent-text/40">
-            <Link to="/privacy" className="hover:text-accent-text transition-colors duration-300 uppercase">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-accent-text transition-colors duration-300 uppercase">Terms of Service</Link>
+            <Link to="#" className="hover:text-accent-text transition-colors duration-300 uppercase">Privacy Policy</Link>
+            <Link to="#" className="hover:text-accent-text transition-colors duration-300 uppercase">Terms of Service</Link>
           </div>
         </div>
       </div>

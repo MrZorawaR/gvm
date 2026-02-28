@@ -81,7 +81,7 @@ export default function Navbar() {
         {/* ERP Login */}
         <div className="px-6">
           <Link
-            to="https://eflow.kualakubsgurugram.in/"
+            to="https://gvmps.gabis.in/"
             target="_blank"
             className="inline-block border border-accent-text text-accent-text px-4 py-2 no-underline hover:bg-accent-text hover:text-accent-bg transition-colors duration-300"
             onClick={() => setShow(false)}
