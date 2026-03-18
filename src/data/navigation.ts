@@ -1,8 +1,9 @@
 export const headerLinks = [
-  { pathname: "Admissions", path: "#admissions" },
-  { pathname: "Why GVM?", path: "#why-gvmps" },
-  { pathname: "News & Events", path: "#news" },
-  { pathname: "Contact Us", path: "#contact" },
+  { pathname: "Admissions", path: "/#admissions" },
+  { pathname: "Why GVM?", path: "/#why-gvmps" },
+  { pathname: "News & Events", path: "/#news" },
+  { pathname: "Contact Us", path: "/#contact" },
+  { pathname: "Career", path: "/career" },
 ];
 
 export const navLinks = [

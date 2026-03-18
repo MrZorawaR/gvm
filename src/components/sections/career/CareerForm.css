@@ -1,0 +1,261 @@
+/* ===== Career Form — Premium Styles ===== */
+
+/* ---------- Hero Banner ---------- */
+.career-hero {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  overflow: hidden;
+}
+.career-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.career-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 20, 35, 0.53) 0%, rgba(14, 27, 46, 0.662) 100%);
+}
+.career-hero-content {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 600px;
+  padding: 0 20px;
+}
+.career-hero-content h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #f0f4f8;
+  margin: 0 0 16px;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.career-hero-content p {
+  font-size: 1.05rem;
+  color: rgba(224, 232, 240, 0.7);
+  margin: 0 0 28px;
+  line-height: 1.7;
+}
+.career-hero-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  color: #f0f4f8;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+.career-hero-arrow:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* ---------- Wrapper & Container ---------- */
+.career-wrapper {
+  background: linear-gradient(165deg, #0e1b2e 0%, #162a46 50%, #1a3352 100%);
+  padding: 60px 20px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.career-container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- Glass Cards ---------- */
+.career-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 32px 30px;
+  margin-bottom: 28px;
+  animation: cardFadeIn 0.6s ease both;
+}
+.career-card:nth-child(2) { animation-delay: 0.08s; }
+.career-card:nth-child(3) { animation-delay: 0.16s; }
+.career-card:nth-child(4) { animation-delay: 0.24s; }
+.career-card:nth-child(5) { animation-delay: 0.32s; }
+
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Section Title ---------- */
+.career-card .section-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #e0e8f0;
+  margin: 0 0 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.career-card .section-title::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 20px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #3b82f6, #60a5fa);
+  flex-shrink: 0;
+}
+
+/* ---------- Form Grid ---------- */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 28px;
+}
+
+/* ---------- Form Group ---------- */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(224, 232, 240, 0.7);
+  margin-bottom: 7px;
+  letter-spacing: 0.02em;
+}
+.form-group label span {
+  color: #f87171;
+  margin-left: 2px;
+}
+
+/* ---------- Inputs & Selects ---------- */
+.form-group input,
+.form-group select {
+  height: auto;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: #e8eef4;
+  font-size: 0.9rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  outline: none;
+  font-family: inherit;
+}
+.form-group input::placeholder {
+  color: rgba(224, 232, 240, 0.3);
+}
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+  background: rgba(255, 255, 255, 0.07);
+}
+.form-group select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(224,232,240,0.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+.form-group select option {
+  background: #1a2e47;
+  color: #e8eef4;
+}
+
+/* File input styling */
+.form-group input[type="file"] {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: rgba(224, 232, 240, 0.6);
+}
+.form-group input[type="file"]::file-selector-button {
+  background: rgba(59, 130, 246, 0.2);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #93bbfc;
+  padding: 5px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  margin-right: 10px;
+  transition: background 0.2s ease;
+}
+.form-group input[type="file"]::file-selector-button:hover {
+  background: rgba(59, 130, 246, 0.35);
+}
+
+/* ---------- Submit ---------- */
+.career-submit-wrap {
+  text-align: center;
+  margin-top: 36px;
+}
+.career-submit-btn {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: #fff;
+  border: none;
+  padding: 14px 52px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+.career-submit-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, transparent, rgba(255,255,255,0.1));
+  pointer-events: none;
+}
+.career-submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(37, 99, 235, 0.5);
+}
+.career-submit-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+.career-submit-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .career-hero {
+    height: 70vh;
+  }
+  .career-hero-content h2 {
+    font-size: 1.8rem;
+  }
+  .career-hero-content p {
+    font-size: 0.9rem;
+  }
+  .career-wrapper {
+    padding: 40px 14px 60px;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .career-card {
+    padding: 24px 20px;
+  }
+}
