@@ -242,6 +242,12 @@
   .career-hero {
     height: 70vh;
   }
+  .career-hero-content {
+    top: auto;
+    bottom: 50px;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
   .career-hero-content h2 {
     font-size: 1.8rem;
   }
