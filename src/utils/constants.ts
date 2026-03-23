@@ -8,7 +8,7 @@ export const SCHOOL_PHONE2 = "+91-9896471555";
 export const SCHOOL_EMAIL = "gvmps22@gmail.com";
 export const SCHOOL_ADDRESS = "Near N.H.B.C, Panipat-132103, Haryana";
 
-export const WHATSAPP_NUMBER = "919996611143";
+export const WHATSAPP_NUMBER = "919896471555";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Hello%20I%20need%20more%20information`;
 
 export const ERP_LOGIN_URL = "https://eflow.kualakubsgurugram.in/";

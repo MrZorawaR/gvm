@@ -1,9 +1,10 @@
 import WPIcon from "../../assets/svg/whatsapp-logo.svg";
+import { WHATSAPP_LINK } from "../../utils/constants";
 
 export default function WhatsappIcon() {
   return (
     <a
-      href="https://wa.me/919996648317?text=Hello%20I%20need%20more%20information"
+      href={WHATSAPP_LINK}
       target="_blank"
       rel="noopener noreferrer"
     >
