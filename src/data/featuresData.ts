@@ -36,7 +36,7 @@ export const features: Feature[] = [
   {
     title: "Library",
     description:
-      "G.V.M. has a spacious library well stocked with about 15,000 books with the number increasing with each passing year. The library has sections ranging from text books and reference books to fiction and general knowledge. There are a variety of books available for students of all levels on various subjects, literature, travel etc. the school subscribes newspapers and magazines to enable students to gain knowledge and develop interest in reading. The students are encouraged to read good books to widen their interests and extend their mental horizon.",
+      "GVMPS has a spacious library well stocked with about 15,000 books with the number increasing with each passing year. The library has sections ranging from text books and reference books to fiction and general knowledge. There are a variety of books available for students of all levels on various subjects, literature, travel etc. the school subscribes newspapers and magazines to enable students to gain knowledge and develop interest in reading. The students are encouraged to read good books to widen their interests and extend their mental horizon.",
     image: "/library.webp",
   },
   {

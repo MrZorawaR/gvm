@@ -73,7 +73,7 @@ export default function FeaturesSection() {
         {/* Section header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-accent-text leading-tight">
-            Why GVM
+            Why GVMPS
           </h2>
           <p className="mt-3 text-accent-text/60 max-w-5xl mx-auto text-base">
             Everything your child needs for a well-rounded education — modern

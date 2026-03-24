@@ -1,7 +1,7 @@
 /** App-wide constants */
 
 export const SCHOOL_NAME = "Geeta Vidya Mandir Public School";
-export const SCHOOL_SHORT_NAME = "GVM";
+export const SCHOOL_SHORT_NAME = "GVMPS";
 export const SCHOOL_PHONE = "+91-9996611143";
 export const SCHOOL_PHONE2 = "+91-9896471555";
 
