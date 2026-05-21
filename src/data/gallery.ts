@@ -16,7 +16,7 @@ export const sliderCards = [
     link: "/our-future",
   },
   {
-    img: "/addmission.jpeg",
+    img: "/ad.jpeg",
     tag: "Admission",
     text: "Admissions",
     link: "/admissions",
@@ -34,7 +34,7 @@ export const sliderCards = [
     link: "/our-future",
   },
   {
-    img: "/addmission.jpeg",
+    img: "/add.jpeg",
     tag: "Admission",
     text: "Admissions",
     link: "/admissions",

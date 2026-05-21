@@ -43,11 +43,11 @@ export const galleryCategories: GalleryCategory[] = [
     subtitle: "Recognising excellence in academics, sports, and beyond",
     accentColor: "#eab308",
     cards: [
-       { id: "achivements-1", imageSrc: "/ac.jpeg", caption: "" },
-       { id: "achivements-2", imageSrc: "/ac2.jpeg", caption: "" },
-       { id: "achivements-3", imageSrc: "/ac3.jpeg", caption: "" },
-       { id: "achivements-4", imageSrc: "/ac4.jpeg", caption: "", objectPosition: "top" },
-      
+      { id: "achivements-1", imageSrc: "/ac.jpeg", caption: "" },
+      { id: "achivements-2", imageSrc: "/ac2.jpeg", caption: "" },
+      { id: "achivements-3", imageSrc: "/ac3.jpeg", caption: "" },
+      { id: "achivements-4", imageSrc: "/ac4.jpeg", caption: "", objectPosition: "top" },
+
     ]
   },
   {
@@ -56,9 +56,11 @@ export const galleryCategories: GalleryCategory[] = [
     subtitle: "Celebrating the spirit of athleticism and teamwork",
     accentColor: "#22c55e",
     cards: [
-      { id: "sports-day-card-1", imageSrc: "/sp.jpeg", caption: "" },
-      { id: "sports-day-card-2", imageSrc: "/SPORTS 2.jfif", caption: "" },
-      
+      { id: "sports-day-card-1", imageSrc: "/SP1.jfif", caption: "" },
+      { id: "sports-day-card-2", imageSrc: "/SP2.jfif", caption: "" },
+      { id: "sports-day-card-3", imageSrc: "/SP3.jfif", caption: "" },
+      { id: "sports-day-card-4", imageSrc: "/SP4.jfif", caption: "" },
+
     ]
   },
   {
@@ -67,11 +69,11 @@ export const galleryCategories: GalleryCategory[] = [
     subtitle: "Colours, dance, music — a celebration of our heritage",
     accentColor: "#ec4899",
     cards: [
-       { id: "cultural-fest-1", imageSrc: "/KULA 1.jfif", caption: "" },
-       { id: "cultural-fest-2", imageSrc: "/pst 2.jfif", caption: "" },
-       { id: "cultural-fest-3", imageSrc: "/cul.jpeg", caption: "" },
-       { id: "cultural-fest-4", imageSrc: "/cul2.jpeg", caption: "" },
-      
+      { id: "cultural-fest-1", imageSrc: "/KULA 1.jfif", caption: "" },
+      { id: "cultural-fest-2", imageSrc: "/pst 2.jfif", caption: "" },
+      { id: "cultural-fest-3", imageSrc: "/cul.jpeg", caption: "" },
+      { id: "cultural-fest-4", imageSrc: "/cul2.jpeg", caption: "" },
+
     ]
   },
   {
@@ -80,11 +82,11 @@ export const galleryCategories: GalleryCategory[] = [
     subtitle: "Morning assembly: setting the tone for learning and discipline",
     accentColor: "#3b82f6",
     cards: [
-       { id: "Assembly-1", imageSrc: "/aaa.jpeg", caption: "" },
-       { id: "Assembly-2", imageSrc: "/a2.jpeg", caption: "" },
-       { id: "Assembly-3", imageSrc: "/a3.jpeg", caption: "" },
-       { id: "Assembly-4", imageSrc: "/a4.jpeg", caption: "" },
-      
+      { id: "Assembly-1", imageSrc: "/aaa.jpeg", caption: "" },
+      { id: "Assembly-2", imageSrc: "/a2.jpeg", caption: "" },
+      { id: "Assembly-3", imageSrc: "/a3.jpeg", caption: "" },
+      { id: "Assembly-4", imageSrc: "/a4.jpeg", caption: "" },
+
     ]
   },
   // {
@@ -95,14 +97,14 @@ export const galleryCategories: GalleryCategory[] = [
   //   cards: makeCards("graduation"),
   // },
   // {
-    // id: "classroom-life",
-    // title: "Classroom Life",
-    // subtitle: "Where knowledge meets curiosity every single day",
-    // accentColor: "#06b6d4",
-    // cards: [
-    //    { id: "classroom-life-1", imageSrc: "/cl.jpeg", caption: "" },
-      
-    // ]
+  // id: "classroom-life",
+  // title: "Classroom Life",
+  // subtitle: "Where knowledge meets curiosity every single day",
+  // accentColor: "#06b6d4",
+  // cards: [
+  //    { id: "classroom-life-1", imageSrc: "/cl.jpeg", caption: "" },
+
+  // ]
   // },
   // {
   //   id: "infrastructure",
